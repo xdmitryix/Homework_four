@@ -17,9 +17,9 @@ int DataEntry(string str)
 int FindSum(int num)
 {
     int sum = 0;
-    for (int i = num; num > 0; i = num / 10)
+    for (int i = num; i > 0; i = i / 10)
     {
-        sum = sum + num % 10;
+        sum = sum + i % 10;
     }
     return sum;
 }
