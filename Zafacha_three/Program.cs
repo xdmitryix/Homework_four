@@ -3,10 +3,10 @@
 // 6, 1, 33 -> [6, 1, 33]
 
 
-Console.Clear()
+Console.Clear();
 int[] numbers = new int[8];
 for (int i = 0; i < numbers.Length; i++)
 {
     numbers[i] =new Random().Next(0, 99);
-    Console.WriteLine(numbers[i]);
+    Console.Write(numbers[i] + ",");
 }
